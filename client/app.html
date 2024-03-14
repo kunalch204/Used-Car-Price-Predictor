@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Used Car Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Car Price Estimator</h1>
+      <form id="pricePredictionForm">
+        <div class="form-group">
+          <label for="brand">Brand</label>
+          <select id="brand" name="brand">
+            <!-- Options will be populated here -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="interior">Interior</label>
+          <select id="interior" name="interior">
+            <!-- Options will be populated here -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exterior">Exterior</label>
+          <select id="exterior" name="exterior">
+            <!-- Options will be populated here -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="age">Age (in years)</label>
+          <input type="number" id="age" name="age" />
+        </div>
+        <div class="form-group">
+          <label for="miles">Miles</label>
+          <input type="number" id="miles" name="miles" />
+        </div>
+        <div class="form-group">
+          <label for="accidents">Accidents</label>
+          <input type="number" id="accidents" name="accidents" />
+        </div>
+        <div class="form-group">
+          <label for="owners">Owners</label>
+          <input type="number" id="owners" name="owners" />
+        </div>
+        <button type="button" onclick="onClickedEstimatePrice()">
+          Estimate Price
+        </button>
+      </form>
+      <div id="estimatedPrice">Estimated Price: <span></span></div>
+    </div>
+  </body>
+</html>
