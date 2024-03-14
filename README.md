@@ -1,3 +1,5 @@
+![](Car-Price_Predictor.JPG)
+
 ---
 
 # Used Car Price Predictor
