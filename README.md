@@ -1,4 +1,4 @@
-![](Car-Price_Predictor.JPG)
+![](Car-Price-Predictor.PNG)
 
 ---
 
